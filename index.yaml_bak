@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  biz-engine:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-29T23:55:21.2949+08:00
+    description: A Helm chart for Kubernetes
+    digest: c15280f243bc7e82b0b65ae4aca3cd03e97dc660fb94cb42e47613999257a229
+    name: biz-engine
+    urls:
+    - https://raw.githubusercontent.com/calvinyv/my-helm/master/biz-engine/biz-engine-0.1.0.tgz
+    version: 0.1.0
+  nginx-ingress:
+  - appVersion: 0.22.0
+    created: 2019-04-29T23:55:21.29582+08:00
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: d7a2d02366e6e70a5745931ace40e6b9069ddb857f787b77fd186e93e32d5e56
+    engine: gotpl
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: jack.zampolin@gmail.com
+      name: jackzampolin
+    - email: mgoodness@gmail.com
+      name: mgoodness
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://raw.githubusercontent.com/calvinyv/my-helm/master/nginx-ingress/nginx-ingress-1.2.3.tgz
+    version: 1.2.3
+generated: 2019-04-29T23:55:21.29434+08:00
